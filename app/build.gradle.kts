@@ -72,6 +72,9 @@ dependencies {
         implementation("androidx.room:room-paging:$room_version")
     }
 
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.9.3")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.3")
+
 
 
     testImplementation(libs.junit)
